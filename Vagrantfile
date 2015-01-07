@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provider "virtualbox"
-  config.vm.box = "ubuntu/trusty32"
+  config.vm.box = "hashicorp/precise64"
 
   # vagrant-cachier is a plugin that keeps packages around so you don't have
   # to download them from our poor benighted providers over and over and over
